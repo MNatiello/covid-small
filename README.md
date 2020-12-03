@@ -39,7 +39,7 @@ T         Initial number of T-individuals           nonnegative integer
 U         Initial number of U-individuals           nonnegative integer
 seed      For random number generator               positive integer
 wipe      If non-zero, delete short-lived epidemies non-negative integer
-Tmin      upper limit for short-lived epidemies     positive integer
+Tmin      upper limit for short-lived epidemies     positive integer 
 
 Usage (command line):
 

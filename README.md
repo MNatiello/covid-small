@@ -38,22 +38,28 @@ Time-unit is days
 
 Usage (command line):
 
-`code(./corona NAME Stat Duration ext betaT betaU detT detU delayT delayU S T U seed wipe Tmin)`
+```shell script
+./corona NAME Stat Duration ext betaT betaU detT detU delayT delayU S T U seed wipe Tmin
+```
 e.g.,
-`code(t 100 300 0.05 2.5 2.5 1.7 1.0 1 3 998 2 0 1977 19 25)`
+```shell script
+./corona Test 100 300 0.05 2.5 2.5 1.7 1.0 1 3 998 2 0 1977 19 25
+```
 
 If file IConditions exists  reads date and number of individuals in each compartment for each realisation
 
 * Output:
   * Daily record of population in each compartment in file NAMEnn
-* Final date and population distribution in each compartment for each realisation in file FConditions
+  * Final date and population distribution in each compartment for each realisation in file FConditions
 
 Example of continuation run:
 
-`code(
+```shell script
 ../corona Test 100   50 0.05 2.5 2.5 1.7 1.0 1 3 998 2 0 1977 10 19 
 echo  "continuing the first 50-days run up to 300 days..."
 cp FConditions IConditions
-../corona Test 100 300 0.05 2.0 2.0 1.9 1.5 1 1 998 2 0 1997 10 19)`
+../corona Test 100 300 0.05 2.0 2.0 1.9 1.5 1 1 998 2 0 1997 10 19
+```
+
 
 

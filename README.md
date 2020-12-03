@@ -20,7 +20,7 @@ Implements Kendall's algorithm for a Markov Jump Process inspired in Feller's se
 * Solari, Hernán; Natiello, Mario (2020) Stochastic model for COVID-19 in slums:
   interaction between biology and public policies. Preprint.
 
-Time-unit is days
+Time-unit is days 
 
 Input variables:
 

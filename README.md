@@ -13,19 +13,14 @@ The code is available from
 http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/SFMT/dSFMT-src-2.2.3.tar.gz
 
 Implements Kendall's algorithm for a Markov Jump Process inspired in Feller's setup. See e.g.,
-* Solari, Hernán; Natiello, Mario (2014). Linear Processes in Stochastic Population Dynamics: Theory and Application to Insect Development.
-   Scientific World Journal.
-* Natiello, Mario A.; Solari, Hernán G. (2020). Modelling population dynamics based on experimental trials with genetically modified (RIDL)
-  mosquitoes. Ecological Modelling, 424,
 * Solari, Hernán; Natiello, Mario (2020) Stochastic model for COVID-19 in slums:
   interaction between biology and public policies. Preprint.
 
 Time-unit is days 
 
-Input variables:
-
-NAME      Name of run                               char
-Stat      Number of realisations                    positive integer
+*Input variables:
+*: NAME:::      Name of run                               char
+*: Stat:::      Number of realisations                    positive integer
 Duration  Simulation length in days                 positive integer
 ext       Contagion rate external to the system     positive double
 betaT     Internal contagion rate, class T          positive double

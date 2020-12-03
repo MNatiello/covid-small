@@ -18,9 +18,9 @@ Implements Kendall's algorithm for a Markov Jump Process inspired in Feller's se
 
 Time-unit is days 
 
-* Input variables:
-*: NAME :::      Name of run                               char
-*: Stat :::      Number of realisations                    positive integer
+Markup * Input variables:
+          * NAME      Name of run                               char
+          * Stat :::      Number of realisations                    positive integer
 Duration  Simulation length in days                 positive integer
 ext       Contagion rate external to the system     positive double
 betaT     Internal contagion rate, class T          positive double

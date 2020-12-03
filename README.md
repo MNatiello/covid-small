@@ -22,19 +22,19 @@ Time-unit is days
   * NAME      Name of run                               char
   * Stat      Number of realisations                    positive integer
   * Duration  Simulation length in days                 positive integer
-ext       Contagion rate external to the system     positive double
-betaT     Internal contagion rate, class T          positive double
-betaU     Internal contagion rate, class U          positive double
-detT      Removal intensity, class T                positive double
-detU      Removal intensity, class U                positive double
-delayT    First day of removal effort, class T      positive integer
-delayU    First day of removal effort, class U      positive integer
-S         Initial number of susceptibles            positive integer
-T         Initial number of T-individuals           nonnegative integer
-U         Initial number of U-individuals           nonnegative integer
-seed      For random number generator               positive integer
-wipe      If non-zero, delete short-lived epidemies non-negative integer
-Tmin      upper limit for short-lived epidemies     positive integer 
+  * ext       Contagion rate external to the system     positive double
+  * betaT     Internal contagion rate, class T          positive double
+  * betaU     Internal contagion rate, class U          positive double
+  * detT      Removal intensity, class T                positive double
+  * detU      Removal intensity, class U                positive double
+  * delayT    First day of removal effort, class T      positive integer
+  * delayU    First day of removal effort, class U      positive integer
+  * S         Initial number of susceptibles            positive integer
+  * T         Initial number of T-individuals           nonnegative integer
+  * U         Initial number of U-individuals           nonnegative integer
+  * seed      For random number generator               positive integer
+  * wipe      If non-zero, delete short-lived epidemies non-negative integer
+  * Tmin      upper limit for short-lived epidemies     positive integer 
 
 Usage (command line):
 

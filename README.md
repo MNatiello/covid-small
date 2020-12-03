@@ -61,3 +61,4 @@ echo  "continuing the first 50-days run up to 300 days..."
 cp FConditions IConditions
 ../corona Test 100 300 0.05 2.0 2.0 1.9 1.5 1 1 998 2 0 1997 10 19
 
+

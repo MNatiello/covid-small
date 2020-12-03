@@ -1,5 +1,6 @@
 # covid-small
 Markov Jump Process simulating an epidemic outbreak
+
 Programme covid-small -- version 11 -- 2020-11-3
 Language: C
 Files: Makefile, corona.c, corona.h, README.txt
